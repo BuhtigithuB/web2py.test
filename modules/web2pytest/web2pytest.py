@@ -16,7 +16,7 @@ import glob
 import os
 
 #default_path = "/tmp"
-default_path = "/dev/shm/web2py_test" # Ubuntu native ramdisk is faster
+default_path = os.path.dirname(os.path.realpath(__file__)) # Ubuntu native ramdisk is faster
 default_filename = "web2py_test_indicator"
 
 _test_filename = None
