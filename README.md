@@ -6,7 +6,7 @@ An example of how to test an Web2py Application.
 
 I use py.test [1] to test this application, but the concept can be applied in unittest and nose, too.
 
-Tested in Web2py v2.7.4
+Tested in Web2py v2.7.4 and v2.9.5
 
 IMPORTANT: I recommend you work with virtualenv to give you more freedom. It's not required, but strongly recommended.
 
